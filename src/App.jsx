@@ -9,7 +9,7 @@ function App() {
     <>
       <BrowserRouter basename='/pagesauthentication'>
         <Routes>
-          <Route path='/pagesauthentication' exact element={<Login/>}/>
+          <Route path='/' exact element={<Login/>}/>
           <Route path='/Login' element={<Login/>}/>
           <Route path='/register' element={<Register/>}/>
         </Routes>
